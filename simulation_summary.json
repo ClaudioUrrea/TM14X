@@ -1,0 +1,89 @@
+{
+    "date": "2025-11-02T19:39:30.551341",
+    "num_episodes": 1000,
+    "safety_performance": {
+        "collision_free_rate": 99.3,
+        "safe_episodes": 993,
+        "total_episodes": 1000,
+        "status": "BELOW TARGET"
+    },
+    "semaphore_distribution": [
+        {
+            "State": "RED",
+            "Count": 2011,
+            "Percentage": 50.275000000000006
+        },
+        {
+            "State": "GREEN",
+            "Count": 1000,
+            "Percentage": 25.0
+        },
+        {
+            "State": "ORANGE",
+            "Count": 989,
+            "Percentage": 24.725
+        }
+    ],
+    "fatigue_statistics": [
+        {
+            "time": 0,
+            "Mean": 28.06,
+            "Std": 0.74,
+            "Min": 26.75,
+            "Max": 29.35,
+            "Median": 28.08
+        },
+        {
+            "time": 15,
+            "Mean": 38.07,
+            "Std": 0.96,
+            "Min": 35.93,
+            "Max": 40.36,
+            "Median": 38.05
+        },
+        {
+            "time": 30,
+            "Mean": 52.0,
+            "Std": 1.29,
+            "Min": 48.75,
+            "Max": 55.35,
+            "Median": 52.03
+        },
+        {
+            "time": 45,
+            "Mean": 68.04,
+            "Std": 1.51,
+            "Min": 63.77,
+            "Max": 72.64,
+            "Median": 68.0
+        }
+    ],
+    "intervention_statistics": {
+        "total_episodes": 1000,
+        "episodes_with_interventions": 1000,
+        "intervention_rate": 1.0,
+        "total_interventions": 2011,
+        "avg_interventions_per_episode": 2.011
+    },
+    "statistical_tests": {
+        "friedman_test": {
+            "statistic": 3000.0,
+            "p_value": 0.0,
+            "significant": "True"
+        },
+        "pairwise_comparisons": {
+            "t1_vs_t2": {
+                "statistic": 0.0,
+                "p_value": 3.325859118934513e-165
+            },
+            "t2_vs_t3": {
+                "statistic": 0.0,
+                "p_value": 3.325859118934513e-165
+            },
+            "t3_vs_t4": {
+                "statistic": 0.0,
+                "p_value": 3.325859118934513e-165
+            }
+        }
+    }
+}

@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Real-Time Fatigue-Aware Task Reallocation in Human-Robot Collaboration: A Longitudinal Digital Twin Framework"
+version: 1.0.0
+date-released: 2025-11-03
+authors:
+  - family-names: "Urrea"
+    given-names: "Claudio"
+    orcid: "https://orcid.org/0000-0001-7197-8928"
+    affiliation: "University of Santiago of Chile"
+    email: "claudio.urrea@usach.cl"
+repository-code: "https://github.com/your-username/fatigue-aware-hrc"
+keywords:
+  - "Human-Robot Collaboration"
+  - "Fatigue Monitoring"
+  - "Digital Twin"
+  - "Task Reallocation"
+  - "Industry 4.0"
+  - "Ergonomics"
+  - "Adaptive Systems"
+  - "RoboDK Integration"
+  - "Statistical Validation"
+  - "Semaphore Alerts"
+  - "Omron TM14X"
+  - "Manufacturing"
+  - "Safety Systems"
+license: CC-BY-4.0
+abstract: |
+  Human fatigue in Human-Robot Collaboration (HRC) manufacturing systems remains 
+  a critical yet underaddressed factor affecting worker well-being, safety, and 
+  system performance. This software implements a novel fatigue-aware task 
+  reallocation framework validated through 1,000 industrial episodes with high 
+  statistical significance (Friedman χ²(3) = 3000.0, p < 0.001). The Digital 
+  Twin (DT)-based system monitors a single operator across a 45-minute work cycle, 
+  tracking fatigue evolution from baseline (28%) to critical levels (mean final 
+  fatigue ≈68%), while capturing skill progression from Intermediate to Expert. 
+  The framework implements a tricolor semaphore alert system (Green: ≤30%, 
+  Orange: 31-40%, Red: >40%) triggering dynamic task reallocation to collaborative 
+  robots when fatigue exceeds 40%. Results demonstrate 99.85% collision-free 
+  operation, exceeding ISO/TS 15066:2016 standards, while maintaining productivity.
+references:
+  - type: article
+    title: "Real-Time Fatigue-Aware Task Reallocation in Human-Robot Collaboration: A Longitudinal Digital Twin Framework with Statistical Validation and RoboDK Integration"
+    authors:
+      - family-names: "Urrea"
+        given-names: "Claudio"
+    journal: "Systems"
+    year: 2025
+    volume: 1
+    issue: 1
+    start: 0
+    publisher:
+      name: "MDPI"
+    doi: "10.3390/systems"
+preferred-citation:
+  type: article
+  title: "Real-Time Fatigue-Aware Task Reallocation in Human-Robot Collaboration: A Longitudinal Digital Twin Framework with Statistical Validation and RoboDK Integration"
+  authors:
+    - family-names: "Urrea"
+      given-names: "Claudio"
+  journal: "Systems"
+  year: 2025
+  volume: 1
+  issue: 1
+  start: 0
+  publisher:
+    name: "MDPI"
+  doi: "10.3390/systems"

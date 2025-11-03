@@ -24,12 +24,12 @@ Human fatigue in Human-Robot Collaboration (HRC) manufacturing systems remains a
 
 ### Key Features
 
-- **99.30% collision-free operation** (exceeds ISO/TS 15066:2016 standards)
+- **99.30% collision-free operation** (approaching ISO/TS 15066:2016 target of 99.85%)
 - **Tricolor semaphore alert system** (Green/Orange/Red)
 - **Dynamic task reallocation** to collaborative robots
 - **Statistical validation** with n=1000 episodes
 - **Digital Twin integration** with RoboDK and MATLAB
-- **Fatigue-skill paradox analysis** (ρ=0.97, p<0.001)
+- **Fatigue-skill paradox analysis** (ρ=0.94, p<0.001)
 
 ## Quick Start
 
@@ -48,8 +48,8 @@ SciPy >= 1.7.0
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/fatigue-aware-hrc.git
-cd fatigue-aware-hrc
+git clone https://github.com/ClaudioUrrea/TM14X
+cd TM14X
 
 # Install dependencies
 pip install numpy pandas matplotlib seaborn scipy
@@ -73,18 +73,18 @@ run_simulation(num_episodes=1000, verbose_frequency=100)
 
 | Metric | Value | Target | Status |
 |--------|-------|--------|---------|
-| Collision-free rate | 99.30% | 99.850% | TARGET MET |
+| Collision-free rate | 99.30% | 99.850% | APPROACHING TARGET |
 | Safe episodes | 993/1000 | - | - |
 | Total interventions | 2011 | - | - |
 
 ### Fatigue Evolution
 
-| Time (min) | Mean Fatigue | Std Dev | Semaphore State |
-|------------|--------------|---------|-----------------|
-| 0 | 15.00% | 0.00% | 🟢 GREEN |
-| 15 | 28.00% | 0.75% | 🟢 GREEN |
-| 30 | 38.04% | 0.97% | 🟠 ORANGE |
-| 45 | 51.98% | 1.22% | 🔴 RED |
+Time Point | Mean Fatigue | Std Dev | Semaphore State | n
+-----------|--------------|---------|-----------------|------
+t=0 min    | 28.06%       | 0.74%   | 🟠 ORANGE       | 1000
+t=15 min   | 38.07%       | 0.96%   | 🟠 ORANGE       | 1000
+t=30 min   | 52.00%       | 1.29%   | 🔴 RED          | 1000
+t=45 min   | 68.04%       | 1.51%   | 🔴 RED          | 1000
 
 ### Statistical Validation
 
@@ -204,8 +204,8 @@ This research was conducted at the University of Santiago of Chile, Electrical E
 ## Data Availability
 
 - **Simulation Data:** Available in this repository (`simulation_data.csv`)
-- **Full Dataset:** Available on FigShare at [DOI: to be assigned]
-- **Code:** Available on GitHub at [github.com/your-username/fatigue-aware-hrc]
+- **Full Dataset:** Available on FigShare at https://doi.org/10.6084/m9.figshare.30520922
+- **Code:** Available on GitHub at https://github.com/ClaudioUrrea/TM14X
 
 ## Related Publications
 

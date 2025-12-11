@@ -159,7 +159,7 @@ If you use this code or data in your research, please cite:
 
 ```bibtex
 @article{urrea2025fatigue,
-  title={Real-Time Fatigue-Aware Task Reallocation in Human-Robot Collaboration: A Longitudinal Digital Twin Framework with Statistical Validation and RoboDK Integration},
+  title={Fatigue-Aware Real-Time Task Reallocation in Human-Robot Collaboration: A Longitudinal Digital Twin Framework with Statistical Validation and RoboDK Integration},
   author={Urrea, Claudio},
   journal={Systems},
   volume={1},

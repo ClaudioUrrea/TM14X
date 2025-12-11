@@ -1,4 +1,4 @@
-# Real-Time Fatigue-Aware Task Reallocation in Human-Robot Collaboration
+# Fatigue-Aware Real-Time Task Reallocation in Human-Robot Collaboration: A Longitudinal Digital Twin Framework with Statistical Validation and RoboDK Integration
 
 [![DOI](https://img.shields.io/badge/DOI-10.3390%2Fsystems-blue)](https://doi.org/10.3390/systems)
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-green)](https://creativecommons.org/licenses/by/4.0/)
@@ -8,7 +8,7 @@
 
 ## 📄 Paper Information
 
-**Title:** Real-Time Fatigue-Aware Task Reallocation in Human-Robot Collaboration: A Longitudinal Digital Twin Framework with Statistical Validation and RoboDK Integration
+**Title:** Fatigue-Aware Real-Time Task Reallocation in Human-Robot Collaboration: A Longitudinal Digital Twin Framework with Statistical Validation and RoboDK Integration
 
 **Author:** Claudio Urrea  
 **Affiliation:** Electrical Engineering Department, Faculty of Engineering, University of Santiago of Chile  

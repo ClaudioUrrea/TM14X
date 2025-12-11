@@ -209,7 +209,7 @@ This research was conducted at the University of Santiago of Chile, Electrical E
 
 ## Related Publications
 
-1. Urrea, C. (2025). "Real-Time Fatigue-Aware Task Reallocation in HRC..." *Systems*, MDPI.
+1. Urrea, C. (2025). "Fatigue-Aware Real-Time Task Reallocation in Human-Robot Collaboration..." *Systems*, MDPI.
 
 ---
 

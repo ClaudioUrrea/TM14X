@@ -96,7 +96,7 @@ python code/visualization.py
 - **Friedman test:** χ²(3) = 3000.0, p < 0.001
 - **Effect sizes:** Cohen's d = 1.18–2.34 (all pairwise comparisons)
 
-### Fatigue-Skill Paradox
+### Fatigue-Skill Temporal Coupling
 - **Correlation:** r = +0.970, p < 0.001
 - **Interpretation:** Operator competence increases alongside fatigue accumulation
 - **Implication:** Expertise does NOT protect against fatigue-related safety degradation

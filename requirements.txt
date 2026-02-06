@@ -1,0 +1,43 @@
+# Python dependencies for Fatigue-Aware HRC Simulation Framework
+# Paper: "A Simulation-Based Framework for Fatigue-Aware Task Reallocation in HRC"
+# Author: Claudio Urrea, Universidad de Santiago de Chile
+# Last updated: January 2026
+
+# Core numerical computing
+numpy>=1.24.3,<2.0.0
+pandas>=2.0.3,<3.0.0
+scipy>=1.11.3,<2.0.0
+
+# Visualization
+matplotlib>=3.7.2,<4.0.0
+seaborn>=0.12.2,<1.0.0
+
+# Optional: Enhanced progress bars
+tqdm>=4.65.0,<5.0.0
+
+# Optional: Jupyter notebook support (for interactive exploration)
+jupyter>=1.0.0,<2.0.0
+ipython>=8.12.0,<9.0.0
+
+# Installation instructions:
+# 
+# Standard installation:
+#   pip install -r requirements.txt
+#
+# Minimal installation (core only):
+#   pip install numpy pandas scipy matplotlib seaborn
+#
+# With virtual environment (recommended):
+#   python -m venv venv
+#   source venv/bin/activate  # On Windows: venv\Scripts\activate
+#   pip install -r requirements.txt
+#
+# Verified compatible with:
+#   - Python 3.10.x
+#   - Python 3.11.x
+#   - Python 3.12.x
+#
+# Operating systems tested:
+#   - Ubuntu 22.04 LTS
+#   - macOS 13+ (Ventura/Sonoma)
+#   - Windows 10/11

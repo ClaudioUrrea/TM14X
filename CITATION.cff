@@ -1,0 +1,69 @@
+cff-version: 1.2.0
+message: "If you use this software or dataset, please cite it as below."
+type: software
+title: "Fatigue-Aware Task Reallocation in Human-Robot Collaboration: Simulation Framework"
+version: 1.0.0
+date-released: 2026-01-01
+abstract: >
+  A simulation-based framework for developing and validating fatigue-aware 
+  task reallocation algorithms in human-robot collaboration. Includes complete 
+  dataset of 1000 simulated episodes (4000 observations), statistical analysis 
+  code, and visualization tools. Achieves 99.30% collision-free operation 
+  approaching ISO/TS 15066:2016 safety targets. Discovers fatigue-skill paradox 
+  (r=+0.970) with implications for HRC safety system design.
+
+authors:
+  - family-names: Urrea
+    given-names: Claudio
+    email: claudio.urrea@usach.cl
+    affiliation: "Universidad de Santiago de Chile"
+    orcid: "https://orcid.org/0000-0001-7197-8928"
+
+repository-code: "https://github.com/ClaudioUrrea/TM14X"
+url: "https://doi.org/10.6084/m9.figshare.30983713"
+license: CC-BY-4.0
+
+keywords:
+  - human-robot collaboration
+  - fatigue monitoring
+  - task reallocation
+  - digital twin simulation
+  - safety systems
+  - computational verification
+  - Industry 4.0
+  - collaborative robotics
+  - operator safety
+  - statistical characterization
+
+references:
+  - type: article
+    title: >
+      A Simulation-Based Framework for Fatigue-Aware Task Reallocation 
+      in Human-Robot Collaboration: Statistical Verification with 
+      1000-Episode Digital Twin
+    authors:
+      - family-names: Urrea
+        given-names: Claudio
+    journal: "IEEE Access"
+    year: 2026
+    volume: TBD
+    issue: TBD
+    start: TBD
+    end: TBD
+    doi: "10.6084/m9.figshare.30983713"
+
+preferred-citation:
+  type: article
+  title: >
+    A Simulation-Based Framework for Fatigue-Aware Task Reallocation 
+    in Human-Robot Collaboration: Statistical Verification with 
+    1000-Episode Digital Twin
+  authors:
+    - family-names: Urrea
+      given-names: Claudio
+      email: claudio.urrea@usach.cl
+      affiliation: "Universidad de Santiago de Chile"
+      orcid: "https://orcid.org/0000-0001-7197-8928"
+  journal: "IEEE Access"
+  year: 2026
+  doi: "10.6084/m9.figshare.30983713"

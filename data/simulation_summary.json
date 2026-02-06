@@ -1,0 +1,79 @@
+{
+  "metadata": {
+    "total_episodes": 1000,
+    "observations": 4000,
+    "simulation_date": "2026-02-05T16:34:54.113555",
+    "green_threshold": 30.0,
+    "red_threshold": 40.0
+  },
+  "safety": {
+    "collision_count": 7,
+    "collision_free_rate": 0.993,
+    "collision_free_percentage": 99.3,
+    "iso_target": 99.85,
+    "gap_to_target": 0.5499999999999972
+  },
+  "fatigue": {
+    "by_timepoint": {
+      "0": {
+        "mean": 28.041919047622603,
+        "std": 0.7321964311270408,
+        "min": 25.569049494948196,
+        "max": 30.88954861799104
+      },
+      "15": {
+        "mean": 38.0919190476226,
+        "std": 0.7321964311270407,
+        "min": 35.6190494949482,
+        "max": 40.939548617991036
+      },
+      "30": {
+        "mean": 52.041919047622606,
+        "std": 0.7321964311270407,
+        "min": 49.5690494949482,
+        "max": 54.88954861799104
+      },
+      "45": {
+        "mean": 68.09191904762261,
+        "std": 0.7321964311270416,
+        "min": 65.6190494949482,
+        "max": 70.93954861799104
+      }
+    }
+  },
+  "semaphore": {
+    "distribution": {
+      "0": {
+        "green": 999,
+        "orange": 1,
+        "red": 0
+      },
+      "15": {
+        "green": 0,
+        "orange": 998,
+        "red": 2
+      },
+      "30": {
+        "green": 0,
+        "orange": 0,
+        "red": 1000
+      },
+      "45": {
+        "green": 0,
+        "orange": 0,
+        "red": 1000
+      }
+    }
+  },
+  "robot": {
+    "active_percentage": 50.05
+  },
+  "skill": {
+    "progression": {
+      "0": 2.0,
+      "15": 2.0,
+      "30": 3.0,
+      "45": 4.0
+    }
+  }
+}

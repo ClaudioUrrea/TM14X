@@ -55,7 +55,7 @@ Published in: IEEE Access (2026)
 ```bash
 # Clone or download this repository
 git clone https://github.com/ClaudioUrrea/TM14X
-cd fatigue-hrc-framework
+cd TM14X
 
 # Install dependencies
 pip install -r requirements.txt

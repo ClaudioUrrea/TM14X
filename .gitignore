@@ -1,0 +1,254 @@
+# .gitignore for Fatigue-Aware HRC Simulation Framework
+# Author: Claudio Urrea, Universidad de Santiago de Chile
+
+# ============================================================================
+# Python
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# ============================================================================
+# IDE / Editors
+# ============================================================================
+
+# PyCharm
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================================
+# Operating System
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+Desktop.ini
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ============================================================================
+# Project-Specific
+# ============================================================================
+
+# Temporary simulation outputs (keep final results)
+/temp_outputs/
+/scratch/
+/debug/
+
+# Large intermediate files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+
+# Log files
+*.log
+logs/
+
+# ============================================================================
+# Data Files (optional - uncomment if needed)
+# ============================================================================
+
+# Uncomment these if you want to exclude large data files from Git
+# (use Git LFS or separate data repository instead)
+
+# /data/*.csv
+# /data/*.json
+# /results/*.png
+
+# However, for reproducibility, we INCLUDE the main dataset:
+# - simulation_data.csv (essential)
+# - simulation_summary.json (essential)
+
+# ============================================================================
+# Documentation
+# ============================================================================
+
+# Sphinx documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# LaTeX
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# ============================================================================
+# Credentials / Secrets (IMPORTANT!)
+# ============================================================================
+
+# Never commit API keys, passwords, or sensitive data
+.env
+.env.local
+.env.*.local
+secrets.json
+credentials.json
+*.key
+*.pem
+
+# ============================================================================
+# Performance / Profiling
+# ============================================================================
+
+*.prof
+*.lprof
+.pyprof/
+
+# ============================================================================
+# Miscellaneous
+# ============================================================================
+
+# Compressed archives
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Keep specific important archives (uncomment if needed)
+# !important_data.zip
+
+# ============================================================================
+# EXCEPTIONS - Files to KEEP in Git
+# ============================================================================
+
+# Keep README and documentation
+!README.md
+!LICENSE.txt
+!CITATION.cff
+!CITATION.bib
+
+# Keep requirements and configuration
+!requirements.txt
+!.gitignore
+
+# Keep main code files
+!code/Dynamic_Threshold_Algorithm.py
+!code/statistical_analysis.py
+!code/visualization.py
+
+# Keep essential data (for reproducibility)
+!data/simulation_data.csv
+!data/simulation_summary.json
+
+# Keep publication figures
+!results/*.png
+
+# ============================================================================
+# Notes for Contributors
+# ============================================================================
+
+# This .gitignore is configured for maximum reproducibility
+# while excluding temporary/development files.
+#
+# Key principles:
+# 1. Include all code needed to reproduce results
+# 2. Include essential datasets (seed=42, 1000 episodes)
+# 3. Include publication-quality figures
+# 4. Exclude temporary outputs and development artifacts
+# 5. NEVER commit credentials or sensitive data
+#
+# For large files (>100MB), consider using Git LFS:
+#   git lfs track "*.csv"
+#   git lfs track "*.png"
